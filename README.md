@@ -1,4 +1,4 @@
-# Alpha landing page for Scriptset. #
+# Alpha landing page for Daily Moment App. #
 
-An new progressive web application that helps screenwritters get from script to set.
+A simple application that reminds us to take a moment and breathe.
 

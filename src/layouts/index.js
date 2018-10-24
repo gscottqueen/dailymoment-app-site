@@ -22,7 +22,7 @@ const Layout = ({ children, data }) => (
     <div
       style={{
         paddingTop: 0,
-        fontFamily: 'Avenir, Helvetica, Arial, sans-serif',
+        fontFamily: 'Josefin Sans, sans-serif',
         textRendering: 'optimizeLegibility'
       }}
     >

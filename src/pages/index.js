@@ -5,13 +5,13 @@ import Fade from 'react-reveal/Fade';
 
 // our components
 import Header from '../components/header'
-import FeatureBlock from '../components/feature-block/feature-block'
 import LeadIn from '../components/lead-in'
 import StatementBanner from '../components/statment-banner'
+import Article from '../components/article/article'
 import MailChimp from '../components/mail-chimp/mailchimp'
 
 // our assets
-import macComp from './Imac.png'
+import macComp from './Iphone.png'
 
 // our inline-styles
 // TODO: set up components and related css
@@ -63,11 +63,14 @@ const wrapperStyles = {
 
 const imgWrapperStyles = { 
   "display" : "flex",
-  "backgroundColor" : "#f2f2f2",
+  "background": "#4776E6",  /* fallback for old browsers */
+  "background": "-webkit-linear-gradient(to right, #8E54E9, #4776E6)",  /* Chrome 10-25, Safari 5.1-6 */
+  "background": "linear-gradient(to right, #8E54E9, #4776E6)", /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   "width" : "100%",
   "maxHeight" : "110vh",
   "minHeight" : "550px"
 }
+
 
 const IndexPage = ({ data }) => (
   <div style={wrapperStyles}>
@@ -77,10 +80,10 @@ const IndexPage = ({ data }) => (
     <div style={imgWrapperStyles}>
       <img src={macComp} style={imgStyles}/>
     </div>
-    <div style={statementStyles}>Scriptset helps writers create and collaborate on scripts made for Television, Web Series, and anything else you can stream on.</div>
+    <div style={statementStyles}>Once a day reminders to take a breath, capture the moment, and own your peace of mind ✌️.</div>
     <div style={asideStyles}>
       <LeadIn/>
-      <FeatureBlock/>
+      <Article/>
     </div>
     <StatementBanner/>
     <MailChimp />

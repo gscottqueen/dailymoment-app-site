@@ -1,16 +1,17 @@
 import React from 'react'
 
-import imgLogo from './scriptset-logo.svg'
+import imgLogo from './dailymoment-logo.svg'
 
 const headingStyles = { 
   "margin" : "0"
 }
 
 const taglineStyles = { 
-  "fontSize" : "small",
+  "fontSize" : "medium",
+  "fontWeight" : "400",
+  "color" : "white",
   "position" : "relative",
   "top" : "-1.6rem",
-  "right" : "-9.5rem" 
 }
 
 const logoStyle = { 

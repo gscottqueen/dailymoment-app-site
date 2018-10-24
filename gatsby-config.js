@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Daily Moment',
-    tagline: 'Just Breathe.',
+    tagline: 'Take control of your anxiety, one moment at a time.',
     titleDescription: 'Anxiety Relief',
     description: 'Scriptset helps writers create and collaborate on scripts made for Television, Web Series, and anything else you can stream on.',
     gverification: 'sU_agIsWKce7XYoxt4f9yRmlr6XZSw4GqCZu6LQlMCo', //Todo: update?
@@ -35,7 +35,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Josefin+Sans\:100`,
+          `Josefin+Sans\:100, 400`,
           `Open+Sans\:400`// you can also specify font weights and styles
         ]
       }

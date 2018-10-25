@@ -35,7 +35,7 @@ const StatementBanner = () => (
     <img src={avatar} style={imgStyles}/>
       <div>
         <h2 style={statementHeaderStyle}>Support the maker</h2>
-        <p style={statementStyle}>Hundreds are already subscribed and I hope, that in some way, this can help you too. It would be amazing to continue giving this away for free and building more applications that help people with mental health exercise.  If you like Daily Moment, <a href='https://ko-fi.com/N4N5L92F'>buy me a Ko-fi</a> so I can keep on making cool stuff.</p>
+        <p style={statementStyle}>Hundreds are already subscribed and I hope, that in some way, this can help you too. It would be amazing to continue giving this away for free and building more applications that help people with mental health exercise. If you like Daily Moment, <a href='https://ko-fi.com/N4N5L92F'>buy me a Ko-fi</a> so I can keep on making cool stuff.</p>
       </div>
     </div>
   </div>

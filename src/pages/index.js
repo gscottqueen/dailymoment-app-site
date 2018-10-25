@@ -78,7 +78,7 @@ const IndexPage = ({ data }) => (
       <Header siteTitle={data.site.siteMetadata.title} tagline={data.site.siteMetadata.tagline}/>
     </div>
     <div style={imgWrapperStyles}>
-      <Fade duration={3000}><img src={macComp} style={imgStyles}/></Fade>
+      <Fade bottom duration={3000}><img src={macComp} style={imgStyles}/></Fade>
     </div>
     <div style={statementStyles}>Once a day reminders to take a breath, capture the moment, and own your peace of mind. ✌️</div>
     <div style={asideStyles}>

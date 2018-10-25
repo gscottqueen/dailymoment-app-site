@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 // our components
 import Header from '../components/header'
 import LeadIn from '../components/lead-in'
-import StatementBanner from '../components/statment-banner'
+import StatementBanner from '../components/statement-banner/statment-banner'
 import Article from '../components/article/article'
 import MailChimp from '../components/mail-chimp/mailchimp'
 
@@ -80,7 +80,7 @@ const IndexPage = ({ data }) => (
     <div style={imgWrapperStyles}>
       <img src={macComp} style={imgStyles}/>
     </div>
-    <div style={statementStyles}>Once a day reminders to take a breath, capture the moment, and own your peace of mind ✌️.</div>
+    <div style={statementStyles}>Once a day reminders to take a breath, capture the moment, and own your peace of mind. ✌️</div>
     <div style={asideStyles}>
       <LeadIn/>
       <Article/>

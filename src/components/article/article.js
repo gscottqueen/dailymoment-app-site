@@ -47,8 +47,6 @@ const Article = () => (
     <p>Both responses require an extraordinary amount of energy. The more air we let in the more explosive that energy can become. The problem is, sometimes there is no one to fight and nowhere to run. Our body becomes over run with emotion, often erupting outside of our reach.</p>
     <p>The secret to beating anxiety, is to just get started.</p>
     <p>This may not be the only thing you have to do, but it is a great place to start and to keep integrated into your daily routine. If you truly focus, one breath at a time, on being singular in the moment when you inhale and open to the infinite when you exhale, you will unlock that potential.</p>
-    <p>But, it's hard to create new habits.</p>
-    <p>That's why I have created a very simple application to help anyone who is willing to help themselves.</p>
   </div>
 )
 

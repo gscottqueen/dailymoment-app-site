@@ -54,8 +54,17 @@ const statementStyles = {
 
 const imgStyles = { 
   "margin" : "auto",
+  "margin-top" : "275px",
   "padding" : "0",
   "position" :"relative",
+  // "position" : "absolute",
+  // "top" : "3%"
+}
+
+const gifStyles = { 
+  "margin" : "auto",
+  "padding" : "0",
+  "position" :"absolute",
 }
 
 const wrapperStyles = { 

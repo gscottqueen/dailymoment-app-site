@@ -54,11 +54,8 @@ const statementStyles = {
 
 const imgStyles = { 
   "margin" : "auto",
-  "margin-top" : "275px",
   "padding" : "0",
   "position" :"relative",
-  // "position" : "absolute",
-  // "top" : "3%"
 }
 
 const gifStyles = { 
@@ -81,6 +78,37 @@ const imgWrapperStyles = {
   "minHeight" : "550px"
 }
 
+const buttonGroupStyles = {
+  "position" : "fixed",
+  "display" : "flex",
+  "flexDirection" : "column",
+  "right" : "-15px",
+  "top" : "140px",
+  "zIndex" : "99",
+}
+
+const buttonStyles = {
+  "width" : "auto",
+  "border" : "2px solid white",
+  "borderRadius" : "50px 0px 0px 50px",
+  "background" : "#4776E6",
+  "padding" : "10px 25px 5px",
+  "margin" : "10px",
+  "color" : "white",
+}
+
+const bannerTagStyles = {
+  "width" : "50%",
+  "background" : "salmon",
+  "color" : "white",
+  "fontSize" : "small",
+  "textAlign" : "center",
+  "position" : "relative",
+  "top" : ".9rem",
+  "right" : "-7rem",
+  "padding" : "0 10px 0 2px",
+}
+
 
 const IndexPage = ({ data }) => (
   <div style={wrapperStyles}>
@@ -88,6 +116,11 @@ const IndexPage = ({ data }) => (
       <Header siteTitle={data.site.siteMetadata.title} tagline={data.site.siteMetadata.tagline}/>
     </div>
     <div style={imgWrapperStyles}>
+      <div style={buttonGroupStyles}>
+        {/* <button style={buttonStyles}>Download iOS</button> */}
+        <div style={bannerTagStyles}>coming soon</div>
+        <button style={buttonStyles}>Download for Android</button> 
+      </div>
       <Fade bottom duration={3000}>
         <img src={macComp} style={imgStyles}/>
       </Fade>
@@ -98,7 +131,7 @@ const IndexPage = ({ data }) => (
       <Article/>
     </div>
     <StatementBanner/>
-    <MailChimp />
+    {/* <MailChimp /> */}
   </div>
 )
 

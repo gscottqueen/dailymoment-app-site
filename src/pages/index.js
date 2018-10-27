@@ -12,7 +12,6 @@ import MailChimp from '../components/mail-chimp/mailchimp'
 
 // our assets
 import macComp from './Iphone.png'
-// import alertComp from './dailymoment_sample.gif'
 
 // our inline-styles
 // TODO: set up components and related css
@@ -131,7 +130,7 @@ const IndexPage = ({ data }) => (
       <Article/>
     </div>
     <StatementBanner/>
-    {/* <MailChimp /> */}
+    <MailChimp />
   </div>
 )
 

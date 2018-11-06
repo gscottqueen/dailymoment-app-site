@@ -7,7 +7,7 @@ import StatementBanner from '../components/statement-banner/statment-banner'
 import Article from '../components/article/article'
 
 // our assets
-import Background from './keegan-houser-672530-unsplash.jpg'
+import Background from './background_image.png'
 
 // our inline-styles
 // TODO: set up components and related css
@@ -47,7 +47,8 @@ const imgStyles = {
   "margin" : "0",
   "padding" : "0",
   "lineHeight" : "0",
-  "opacity" : ".3"
+  "opacity" : ".3",
+  "minWidth" : "100%"
 }
 
 const IndexPage = ({ data }) => (

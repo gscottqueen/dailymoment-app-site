@@ -51,22 +51,22 @@ const imgStyles = {
   "minWidth" : "100%"
 }
 
-const scrollLine = {
-  "borderLeft" : "2px dotted white",
-  "height" : "40px",
-  "position" : "absolute",
-  "bottom" : "0",
-  "left" : "20px",
-}
+// const scrollLine = {
+//   "borderLeft" : "2px dotted white",
+//   "height" : "40px",
+//   "position" : "absolute",
+//   "bottom" : "0",
+//   "left" : "20px",
+// }
 
-const scrollText= {
-  "position" : "absolute",
-  "bottom" : "50px",
-  "left" : "10px",
-  "color" : "white",
-  "writingMode" : "vertical-rl",
-  "text-orientation" : "mixed"
-}
+// const scrollText= {
+//   "position" : "absolute",
+//   "bottom" : "50px",
+//   "left" : "10px",
+//   "color" : "white",
+//   "writingMode" : "vertical-rl",
+//   "text-orientation" : "mixed"
+// }
 
 const IndexPage = ({ data }) => (
   <div>
@@ -76,8 +76,8 @@ const IndexPage = ({ data }) => (
     <div style={imgWrapperStyles}>
       <img src={Background} style={imgStyles}/>
     </div>
-    <span style={scrollText}>scroll</span>
-    <div style={scrollLine}></div>
+    {/* <span style={scrollText}>scroll</span>
+    <div style={scrollLine}></div> */}
     {/* <img src={sample} style={sampleStyles}/> */}
     <div style={statementStyles}>Once a day reminders to take a breath, capture the moment, and own your peace of mind. ✌️</div>
     <div style={asideStyles}>

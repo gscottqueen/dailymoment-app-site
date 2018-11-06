@@ -32,7 +32,7 @@ const tag = {
   "position" : "relative",
   "top" : "-95px",
   "background" : "salmon",
-  "max-width" : "35%",
+  "max-width" : "50%",
   "padding" : "5px 10px 3px",
   "text-align" : "center",
   "color" : "white",

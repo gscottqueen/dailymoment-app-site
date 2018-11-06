@@ -28,13 +28,24 @@ const boxShadow = {
   "boxShadow" : "9px 25px 71px -5px rgba(0,0,0,0.6)",
 }
 
+const tag = {
+  "position" : "relative",
+  "top" : "-95px",
+  "background" : "salmon",
+  "max-width" : "35%",
+  "padding" : "5px 10px 3px",
+  "text-align" : "center",
+  "color" : "white",
+  "fontSize" : "12px",
+}
+
 const Header = ({tagline}) => (
   <div>
     <h1 style={headingStyles}>
       <img style={logoStyle} src={imgLogo}></img>
     </h1>
     <div style={taglineStyles}>{tagline}</div>
-    <Fade bottom delay={1000}><div><img src={sample}style={boxShadow} /></div></Fade>
+    <Fade bottom delay={1000}><img src={sample}style={boxShadow} /><div style={tag}>Coming Soon!</div></Fade>
   </div>
 )
 

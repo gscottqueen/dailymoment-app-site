@@ -10,7 +10,7 @@ const bannerStyles = {
 
 const bannerContentStyles = { 
   "background": "#f2f2f2",
-  "padding": "50px",
+  "padding": "50px 50px 0 50px",
   "margin": "2rem auto",
   "maxWidth": "960px"
 }

@@ -3,9 +3,9 @@ module.exports = {
     title: 'Daily Moment',
     tagline: 'Take control of your anxiety, one moment at a time.',
     titleDescription: 'Anxiety Relief',
-    description: 'Scriptset helps writers create and collaborate on scripts made for Television, Web Series, and anything else you can stream on.',
+    description: 'Visually guided micro-meditations to help you recenter and take back control of your life.',
     gverification: 'sU_agIsWKce7XYoxt4f9yRmlr6XZSw4GqCZu6LQlMCo', //Todo: update?
-    keywords: ['teleplay, free teleplay, free teleplay software, tleplay software, screenplay, screenplay software, free screenplay software, screen play software, best screenplay software, screenwriter software, free screenwriter software, script writer software, best screenwritting software'],
+    keywords: ['anxiety, meditation, reminders'],
   },
   plugins: [
     {

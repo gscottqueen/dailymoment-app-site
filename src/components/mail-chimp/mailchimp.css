@@ -1,0 +1,110 @@
+.mc-embedded-subscribe-form {
+  margin: 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mc-field-group {
+  display: -ms-inline-grid;
+  display: grid;
+  width: 100%;
+  position: relative;
+}
+
+.input-group {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.mc-label {
+  font-size: small;
+  color: #fff;
+  font-weight: 900;
+}
+
+.mc-input-msg {
+  display: none;
+}
+
+input {
+  font-size: 14px;
+  border: 0;
+  margin: 0 auto 10px;
+  background-color: #f2f2f2;
+  padding: 10px 10px 7px;
+  width: 100%;
+  border-radius: 0;
+}
+
+input.mc-input:focus {
+  outline: #ffffe0 solid 5px;
+}
+
+input.mc-input--error {
+  outline: solid 2px #f97282;
+}
+
+.mc-input--error-msg {
+  display: block;
+  font-size: small;
+  font-weight: 700;
+  color: #f97282;
+  margin: 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mc-input--error-msg a {
+  color: lightgray;
+}
+
+.mc-input--success-msg {
+  display: block;
+  font-size: small;
+  font-weight: 700;
+  color: #8bcc8b;
+  margin: 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+input#mc-embedded-subscribe {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff ;
+  background-color: #477cce;
+  padding: 10px 20px 7px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+  min-width: 110px;
+}
+
+.loading  {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1f1f1f ;
+  background-color: #f2f2f2;
+  padding: 13px 20px 3px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  width: auto;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+  min-width: 110px;
+}
+
+input#mc-embedded-subscribe:hover  {
+  background-color: #1a4890;
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, .33); 
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, .33);
+}

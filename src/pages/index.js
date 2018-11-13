@@ -5,6 +5,7 @@ import Header from '../components/header'
 import LeadIn from '../components/lead-in'
 import StatementBanner from '../components/statement-banner/statment-banner'
 import Article from '../components/article/article'
+import MailChimp from '../components/mail-chimp/mailchimp'
 
 // our assets
 import Background from './background_image.png'
@@ -67,6 +68,7 @@ const IndexPage = ({ data }) => (
       <Article/>
     </div>
     <StatementBanner/>
+    <MailChimp />
   </div>
 )
 

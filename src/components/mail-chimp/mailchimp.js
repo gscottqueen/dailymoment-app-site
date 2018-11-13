@@ -158,7 +158,7 @@ class MailChimp extends Component {
                   className={this.state.inputClass}>*</span></label> : 
                 <label 
                   htmlFor="mce-EMAIL"
-                  className="mc-label required">Sign up with an email address to get release notifications.</label>}
+                  className="mc-label required">Sign up to get release notifications.</label>}
                   <div className="input-group">
                     <input 
                       type="email" 

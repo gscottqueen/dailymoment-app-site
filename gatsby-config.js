@@ -4,9 +4,8 @@ module.exports = {
     tagline: 'Take control of your anxiety, one moment at a time.',
     titleDescription: 'Anxiety Relief',
     description: 'Visually guided micro-meditations to help you recenter and take back control of your life.',
-    gverification: process.env.GOOGLE_VERIFICATION, //Todo: update?
+    gverification: 'sU_agIsWKce7XYoxt4f9yRmlr6XZSw4GqCZu6LQlMCo', //Todo: update?
     keywords: ['anxiety, meditation, reminders'],
-    endpoint: process.env.MAILCHIMP_ENDPOINT,
   },
   plugins: [
     {
@@ -15,9 +14,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.UA_TRACKING_CODE, //Todo: update?
+        trackingId: "UA-121226116-2", //Todo: update?
         // Puts tracking script in the head instead of the body
-        head: true,
+        head: false,
         // Setting this parameter is optional
         anonymize: true,
         // Setting this parameter is also optional
@@ -38,7 +37,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-        endpoint: process.env.MAILCHIMP_ENDPOINT, // why not a server var here?
+        endpoint: 'https://inaurastudios.us18.list-manage.com/subscribe/post?u=c96c18d057c48b5a5c698e040&amp;id=f88edaaf93', // why not a server var here?
       },
     },
   ],

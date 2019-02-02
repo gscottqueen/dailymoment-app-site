@@ -67,7 +67,7 @@ const IndexPage = ({ data }) => (
       <LeadIn/>
       <Article/>
     </div>
-    <StatementBanner/>
+    {/* <StatementBanner/> */}
     <MailChimp />
   </div>
 )

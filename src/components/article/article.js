@@ -8,6 +8,7 @@ const articleStyles = {
   "lineHeight" : "1.58",
   "letterSpacing" : "-.003em",
   "maxWidth" : "650px",
+  "marginBottom" : "100px"
 }
 
 const captionStyles = { 
@@ -57,7 +58,6 @@ const Article = () => (
     <p style={pullquote}><em>Part of living with anxiety, is strengthening your ability to cope with the moments we can’t control.</em></p>
     <p><strong>This may not be the only thing you have to do</strong>, but it is a great place to start and to keep integrated into your daily routine. If you truly focus, one breath at a time on being in the moment, you will unlock that potential.</p>
     <p>Remember, It’s hard to create new habits.</p>
-    <p>That’s why I am creating Daily Moment, a rich notification app that encourages overcoming anxiety one moment at a time. I will be building the application live for the <a href="https://twitter.com/search?q=%2324hrstartup&src=tyah">#24hrstartup challenge</a>. I hope that this will be the first in a series of mental health improvement applications.</p>
   </div>
 )
 
